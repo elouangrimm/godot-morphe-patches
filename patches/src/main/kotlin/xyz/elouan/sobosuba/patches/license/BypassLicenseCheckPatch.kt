@@ -15,7 +15,7 @@ object CheckLicenseFingerprint : Fingerprint(
 val bypassLicenseCheckPatch = patch(
     name = "Bypass license check",
     description = "Bypasses the license verification that prevents modified APKs from opening. Required for modded installs.",
-    default = true
+    default = false
 ) {
     execute {
         CheckLicenseFingerprint.method.returnEarly()

@@ -7,7 +7,7 @@ import app.morphe.patcher.patch.resourceXml
 val enableDebugModePatch = patch(
     name = "Enable debug mode",
     description = "Makes the app debuggable, allowing mod installation via Shizuku without root.",
-    default = true
+    default = false
 ) {
     execute {
         resourceXml("AndroidManifest.xml").use { manifest ->
