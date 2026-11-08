@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-11-08T14:05:08",
-  "description": "## [1.1.0](https://github.com/elouangrimm/sobosuba-morphe-patches/compare/v1.0.0...v1.1.0) (2026-11-08)\n\n### ✨ New Features\n\n* add license check bypass patch ([ff8998a](https://github.com/elouangrimm/sobosuba-morphe-patches/commit/ff8998a1e1cd9c9abc6f82e15e1586111e05aee1))\n* generalize patches for Godot games ([19ef95e](https://github.com/elouangrimm/sobosuba-morphe-patches/commit/19ef95e86656aa93cc228ded05e8bda36dd1a1bb))\n\n### 🐛 Bug Fixes\n\n* disable default universal patches ([10e9b83](https://github.com/elouangrimm/sobosuba-morphe-patches/commit/10e9b8365355d3c400deace208f5778014d053dc))",
-  "download_url": "https://github.com/elouangrimm/sobosuba-morphe-patches/releases/download/v1.1.0/patches-1.1.0.mpp",
+  "created_at": "2026-11-08T15:26:41",
+  "description": "## [1.2.0](https://github.com/elouangrimm/sobosuba-morphe-patches/compare/v1.1.0...v1.2.0) (2026-11-08)\n\n### ✨ New Features\n\n* add Sobosuba-targeted patch variants ([816f714](https://github.com/elouangrimm/sobosuba-morphe-patches/commit/816f71442bd8c0f64a80a094bb11e435afb87175))",
+  "download_url": "https://github.com/elouangrimm/sobosuba-morphe-patches/releases/download/v1.2.0/patches-1.2.0.mpp",
   "signature_download_url": "",
-  "version": "1.1.0"
+  "version": "1.2.0"
 }
