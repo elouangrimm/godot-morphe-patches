@@ -1,30 +1,31 @@
-# Sobosuba Morphe Patches
+# Godot Morphe Patches
 
-Morphe patches for the Sobosuba Android game (`com.keepeetron.sobosuba`).
+Generic Morphe patches for Godot Android games, tested with Sobosuba
+(`com.keepeetron.sobosuba`).
 
 ## ❓ About
 
-These patches enable debug mode for mod installation and optionally clone the
-game so the patched copy can be installed alongside the original.
+These patches enable debug mode for mod installation and optionally clone a
+Godot game so the patched copy can be installed alongside the original.
 
 ### How to use these patches
 
 Click the button below, or manually add this repo url to Morphe Manager:
-https://github.com/elouangrimm/sobosuba-morphe-patches
+https://github.com/elouangrimm/godot-morphe-patches
 
-<a href="https://morphe.software/add-source?github=elouangrimm/sobosuba-morphe-patches">
+<a href="https://morphe.software/add-source?github=elouangrimm/godot-morphe-patches">
   <img src=".github/assets/add-to-morphe.svg" alt="Add to Morphe" height="48">
 </a>
 
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.0](https://github.com/elouangrimm/sobosuba-morphe-patches/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
+> **Development build**&nbsp;&nbsp;•&nbsp;&nbsp;`godot-rebrand`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
 <details open>
-<summary>📦 Sobosuba&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<summary>📦 Godot Android games&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
 
-**Package name:** `com.keepeetron.sobosuba`
+**Tested package:** `com.keepeetron.sobosuba`
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
@@ -46,4 +47,4 @@ See the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation
 
 ## 📜 License
 
-Sobosuba Morphe Patches are licensed under the [GNU General Public License v3.0](LICENSE)
+Godot Morphe Patches are licensed under the [GNU General Public License v3.0](LICENSE)

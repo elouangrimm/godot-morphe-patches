@@ -24,7 +24,7 @@
  * merchantability and fitness for a particular purpose, are disclaimed.
  */
 
-package xyz.elouan.sobosuba.patches.clone
+package xyz.elouan.godot.patches.clone
 
 import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
@@ -41,7 +41,6 @@ import app.morphe.patcher.util.matchAllMethodIndicesForEach
 import com.android.tools.smali.dexlib2.Opcode
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 import java.util.logging.Logger
-import xyz.elouan.sobosuba.patches.shared.SOBOSUBA
 
 private const val PACKAGE_NAME_REDDIT = "com.reddit.frontpage"
 
@@ -92,8 +91,6 @@ val cloneAppPatch = patch(
             "may cause app crashes or other unexpected behavior.",
     default = false
 ) {
-    compatibleWith(SOBOSUBA)
-
     packageNameOption = stringOption(
         key = "packageName",
         default = "Default",
