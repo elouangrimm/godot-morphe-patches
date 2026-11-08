@@ -5,8 +5,8 @@ import app.morphe.patcher.patch.resourceXml
 
 @Suppress("unused")
 val enableDebugModePatch = patch(
-    name = "Enable debug mode",
-    description = "Makes the app debuggable, allowing mod installation via Shizuku without root.",
+    name = "Enable debug mode (Universal)",
+    description = "Makes any Android app debuggable, allowing mod installation via Shizuku without root.",
     default = false
 ) {
     execute {

@@ -10,10 +10,10 @@ These patches provide the Sobosuba workflow: bypass the app's license check,
 enable debug mode for mod installation, and optionally clone the app so the
 patched copy can be installed alongside the original.
 
-All three patches are universal in Morphe, so they are available for any
-package. Morphe requires universal patches to default to disabled; for
-Sobosuba, select the three patches when patching
-`com.keepeetron.sobosuba`.
+Each generic patch is available for any package and is disabled by default.
+Sobosuba-targeted debug and clone variants are enabled by default for
+`com.keepeetron.sobosuba`. Morphe requires universal patches to default to
+disabled.
 
 ### How to use these patches
 

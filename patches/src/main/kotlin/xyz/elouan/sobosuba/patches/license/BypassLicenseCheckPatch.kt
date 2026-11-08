@@ -13,8 +13,8 @@ object CheckLicenseFingerprint : Fingerprint(
 
 @Suppress("unused")
 val bypassLicenseCheckPatch = patch(
-    name = "Bypass license check",
-    description = "Bypasses the license verification that prevents modified APKs from opening. Required for modded installs.",
+    name = "Bypass license check (Universal)",
+    description = "Universal license-check patch for compatible apps.",
     default = false
 ) {
     execute {

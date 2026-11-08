@@ -84,8 +84,8 @@ private fun applyGetPackageName(oldPackageName: String, classToChange: String) {
 
 @Suppress("unused")
 val cloneAppPatch = patch(
-    name = "Clone app",
-    description = "Changes the app package name to allow installing the same app multiple times. " +
+    name = "Clone app (Universal)",
+    description = "Universal patch: changes the app package name to allow installing the same app multiple times. " +
             "By default \".morphe\" is appended to the package name. Each cloned install must " +
             "use a unique package name. Cloning does not work with all apps and using this patch " +
             "may cause app crashes or other unexpected behavior.",
