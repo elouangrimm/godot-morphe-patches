@@ -1,4 +1,4 @@
-rootProject.name = "sobosuba-morphe-patches"
+rootProject.name = "godot-morphe-patches"
 
 pluginManagement {
     repositories {

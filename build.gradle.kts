@@ -1,1 +1,1 @@
-// Root build configuration for sobosuba-morphe-patches
+// Root build configuration for godot-morphe-patches
