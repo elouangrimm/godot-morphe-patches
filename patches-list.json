@@ -1,32 +1,21 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "patches": [
+    {
+      "name": "Bypass license check",
+      "description": "Bypasses the license verification that prevents modified APKs from opening. Required for modded installs.",
+      "default": false,
+      "category": null,
+      "compatiblePackages": null,
+      "options": []
+    },
     {
       "name": "Clone app",
       "description": "Changes the app package name to allow installing the same app multiple times. By default \".morphe\" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior.",
       "default": false,
       "category": null,
-      "compatiblePackages": [
-        {
-          "packageName": "com.keepeetron.sobosuba",
-          "name": "Sobosuba",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": "#4F5FA8",
-          "signatures": null,
-          "formFactor": "MOBILE",
-          "targets": [
-            {
-              "version": null,
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
+      "compatiblePackages": null,
       "options": [
         {
           "key": "packageName",
@@ -62,28 +51,9 @@
     {
       "name": "Enable debug mode",
       "description": "Makes the app debuggable, allowing mod installation via Shizuku without root.",
-      "default": true,
+      "default": false,
       "category": null,
-      "compatiblePackages": [
-        {
-          "packageName": "com.keepeetron.sobosuba",
-          "name": "Sobosuba",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": "#4F5FA8",
-          "signatures": null,
-          "formFactor": "MOBILE",
-          "targets": [
-            {
-              "version": null,
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
+      "compatiblePackages": null,
       "options": []
     }
   ]

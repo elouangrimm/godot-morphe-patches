@@ -20,15 +20,14 @@ https://github.com/elouangrimm/godot-morphe-patches
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **Development build**&nbsp;&nbsp;•&nbsp;&nbsp;`godot-rebrand`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
+> **[v1.1.0](https://github.com/elouangrimm/godot-morphe-patches/releases/tag/v1.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
 <details open>
-<summary>📦 Godot Android games&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<summary>🌐 Universal&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
 <br>
-
-**Tested package:** `com.keepeetron.sobosuba`
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
+| [Bypass license check](#bypass-license-check) | Bypasses the license verification that prevents modified APKs from opening. Required for modded installs. |  |
 | [Clone app](#clone-app) | Changes the app package name to allow installing the same app multiple times. By default ".morphe" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior. | • Package name<br>• Update permissions<br>• Update providers |
 | [Enable debug mode](#enable-debug-mode) | Makes the app debuggable, allowing mod installation via Shizuku without root. |  |
 
