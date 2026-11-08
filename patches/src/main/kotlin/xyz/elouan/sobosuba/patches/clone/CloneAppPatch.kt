@@ -24,7 +24,7 @@
  * merchantability and fitness for a particular purpose, are disclaimed.
  */
 
-package xyz.elouan.godot.patches.clone
+package xyz.elouan.sobosuba.patches.clone
 
 import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.extensions.InstructionExtensions.getInstruction

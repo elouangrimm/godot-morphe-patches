@@ -1,13 +1,13 @@
-## [1.1.0](https://github.com/elouangrimm/godot-morphe-patches/compare/v1.0.0...v1.1.0) (2026-11-08)
+## [1.1.0](https://github.com/elouangrimm/sobosuba-morphe-patches/compare/v1.0.0...v1.1.0) (2026-11-08)
 
 ### ✨ New Features
 
-* add license check bypass patch ([ff8998a](https://github.com/elouangrimm/godot-morphe-patches/commit/ff8998a1e1cd9c9abc6f82e15e1586111e05aee1))
-* generalize patches for Godot games ([19ef95e](https://github.com/elouangrimm/godot-morphe-patches/commit/19ef95e86656aa93cc228ded05e8bda36dd1a1bb))
+* add license check bypass patch ([ff8998a](https://github.com/elouangrimm/sobosuba-morphe-patches/commit/ff8998a1e1cd9c9abc6f82e15e1586111e05aee1))
+* generalize patches for Godot games ([19ef95e](https://github.com/elouangrimm/sobosuba-morphe-patches/commit/19ef95e86656aa93cc228ded05e8bda36dd1a1bb))
 
 ### 🐛 Bug Fixes
 
-* disable default universal patches ([10e9b83](https://github.com/elouangrimm/godot-morphe-patches/commit/10e9b8365355d3c400deace208f5778014d053dc))
+* disable default universal patches ([10e9b83](https://github.com/elouangrimm/sobosuba-morphe-patches/commit/10e9b8365355d3c400deace208f5778014d053dc))
 
 ## 1.0.0 (2026-11-08)
 

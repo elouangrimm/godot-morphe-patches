@@ -1,13 +1,13 @@
-group = "xyz.elouan.godot.patches"
+group = "xyz.elouan.sobosuba.patches"
 
 patches {
     about {
-        name = "Godot Morphe Patches"
-        description = "Generic Morphe patches for Godot Android games, tested with Sobosuba."
-        source = "https://github.com/elouangrimm/godot-morphe-patches"
+        name = "Sobosuba Morphe Patches"
+        description = "Morphe patches for Sobosuba, with universal support for other Android packages."
+        source = "https://github.com/elouangrimm/sobosuba-morphe-patches"
         author = "Elouan Grimme"
         contact = "https://github.com/elouangrimm"
-        website = "https://github.com/elouangrimm/godot-morphe-patches"
+        website = "https://github.com/elouangrimm/sobosuba-morphe-patches"
         license = "GPLv3"
     }
 }

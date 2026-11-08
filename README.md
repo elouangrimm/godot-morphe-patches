@@ -1,28 +1,35 @@
-# Godot Morphe Patches
+# Sobosuba Morphe Patches
 
-Generic Morphe patches for Godot Android games, tested with Sobosuba
-(`com.keepeetron.sobosuba`).
+Morphe patches for Sobosuba (`com.keepeetron.sobosuba`). The patches are
+implemented generically so they can also be selected for other Android
+packages.
 
 ## ❓ About
 
-These patches enable debug mode for mod installation and optionally clone a
-Godot game so the patched copy can be installed alongside the original.
+These patches provide the Sobosuba workflow: bypass the app's license check,
+enable debug mode for mod installation, and optionally clone the app so the
+patched copy can be installed alongside the original.
+
+All three patches are universal in Morphe, so they are available for any
+package. Morphe requires universal patches to default to disabled; for
+Sobosuba, select the three patches when patching
+`com.keepeetron.sobosuba`.
 
 ### How to use these patches
 
 Click the button below, or manually add this repo url to Morphe Manager:
-https://github.com/elouangrimm/godot-morphe-patches
+https://github.com/elouangrimm/sobosuba-morphe-patches
 
-<a href="https://morphe.software/add-source?github=elouangrimm/godot-morphe-patches">
+<a href="https://morphe.software/add-source?github=elouangrimm/sobosuba-morphe-patches">
   <img src=".github/assets/add-to-morphe.svg" alt="Add to Morphe" height="48">
 </a>
 
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.1.0](https://github.com/elouangrimm/godot-morphe-patches/releases/tag/v1.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+> **[v1.1.0](https://github.com/elouangrimm/sobosuba-morphe-patches/releases/tag/v1.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
 <details open>
-<summary>🌐 Universal&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<summary>🌐 Universal (Sobosuba tested)&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
 <br>
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
@@ -46,4 +53,4 @@ See the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation
 
 ## 📜 License
 
-Godot Morphe Patches are licensed under the [GNU General Public License v3.0](LICENSE)
+Sobosuba Morphe Patches are licensed under the [GNU General Public License v3.0](LICENSE)

@@ -1,4 +1,4 @@
-package xyz.elouan.godot.patches.debug
+package xyz.elouan.sobosuba.patches.debug
 
 import app.morphe.patcher.patch.patch
 import app.morphe.patcher.patch.resourceXml
