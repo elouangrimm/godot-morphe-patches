@@ -1,3 +1,9 @@
+## [1.2.0-dev.1](https://github.com/elouangrimm/sobosuba-morphe-patches/compare/v1.1.0...v1.2.0-dev.1) (2026-11-08)
+
+### ✨ New Features
+
+* add Sobosuba-targeted patch variants ([816f714](https://github.com/elouangrimm/sobosuba-morphe-patches/commit/816f71442bd8c0f64a80a094bb11e435afb87175))
+
 ## [1.1.0](https://github.com/elouangrimm/sobosuba-morphe-patches/compare/v1.0.0...v1.1.0) (2026-11-08)
 
 ### ✨ New Features
